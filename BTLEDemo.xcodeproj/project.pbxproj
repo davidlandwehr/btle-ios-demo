@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E55A5B619E4F37100EE4E65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A5B519E4F37100EE4E65 /* main.m */; };
+		5E55A5B919E4F37100EE4E65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A5B819E4F37100EE4E65 /* AppDelegate.m */; };
+		5E55A5BB19E4F37100EE4E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E55A5BA19E4F37100EE4E65 /* Images.xcassets */; };
+		5E55A5BE19E4F37100EE4E65 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E55A5BC19E4F37100EE4E65 /* MainMenu.xib */; };
+		5E55A5CA19E4F37100EE4E65 /* BTLEDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A5C919E4F37100EE4E65 /* BTLEDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E55A5C419E4F37100EE4E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E55A5A819E4F37100EE4E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E55A5AF19E4F37100EE4E65;
+			remoteInfo = BTLEDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E55A5B019E4F37100EE4E65 /* BTLEDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTLEDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E55A5B419E4F37100EE4E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E55A5B519E4F37100EE4E65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E55A5B719E4F37100EE4E65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E55A5B819E4F37100EE4E65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E55A5BA19E4F37100EE4E65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E55A5BD19E4F37100EE4E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5E55A5C319E4F37100EE4E65 /* BTLEDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLEDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E55A5C819E4F37100EE4E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E55A5C919E4F37100EE4E65 /* BTLEDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLEDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E55A5AD19E4F37100EE4E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E55A5C019E4F37100EE4E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E55A5A719E4F37100EE4E65 = {
+			isa = PBXGroup;
+			children = (
+				5E55A5B219E4F37100EE4E65 /* BTLEDemo */,
+				5E55A5C619E4F37100EE4E65 /* BTLEDemoTests */,
+				5E55A5B119E4F37100EE4E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E55A5B119E4F37100EE4E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E55A5B019E4F37100EE4E65 /* BTLEDemo.app */,
+				5E55A5C319E4F37100EE4E65 /* BTLEDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E55A5B219E4F37100EE4E65 /* BTLEDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5E55A5B719E4F37100EE4E65 /* AppDelegate.h */,
+				5E55A5B819E4F37100EE4E65 /* AppDelegate.m */,
+				5E55A5BA19E4F37100EE4E65 /* Images.xcassets */,
+				5E55A5BC19E4F37100EE4E65 /* MainMenu.xib */,
+				5E55A5B319E4F37100EE4E65 /* Supporting Files */,
+			);
+			path = BTLEDemo;
+			sourceTree = "<group>";
+		};
+		5E55A5B319E4F37100EE4E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E55A5B419E4F37100EE4E65 /* Info.plist */,
+				5E55A5B519E4F37100EE4E65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E55A5C619E4F37100EE4E65 /* BTLEDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E55A5C919E4F37100EE4E65 /* BTLEDemoTests.m */,
+				5E55A5C719E4F37100EE4E65 /* Supporting Files */,
+			);
+			path = BTLEDemoTests;
+			sourceTree = "<group>";
+		};
+		5E55A5C719E4F37100EE4E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E55A5C819E4F37100EE4E65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E55A5AF19E4F37100EE4E65 /* BTLEDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E55A5CD19E4F37100EE4E65 /* Build configuration list for PBXNativeTarget "BTLEDemo" */;
+			buildPhases = (
+				5E55A5AC19E4F37100EE4E65 /* Sources */,
+				5E55A5AD19E4F37100EE4E65 /* Frameworks */,
+				5E55A5AE19E4F37100EE4E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTLEDemo;
+			productName = BTLEDemo;
+			productReference = 5E55A5B019E4F37100EE4E65 /* BTLEDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E55A5C219E4F37100EE4E65 /* BTLEDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E55A5D019E4F37100EE4E65 /* Build configuration list for PBXNativeTarget "BTLEDemoTests" */;
+			buildPhases = (
+				5E55A5BF19E4F37100EE4E65 /* Sources */,
+				5E55A5C019E4F37100EE4E65 /* Frameworks */,
+				5E55A5C119E4F37100EE4E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E55A5C519E4F37100EE4E65 /* PBXTargetDependency */,
+			);
+			name = BTLEDemoTests;
+			productName = BTLEDemoTests;
+			productReference = 5E55A5C319E4F37100EE4E65 /* BTLEDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E55A5A819E4F37100EE4E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "David Landwehr";
+				TargetAttributes = {
+					5E55A5AF19E4F37100EE4E65 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5E55A5C219E4F37100EE4E65 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5E55A5AF19E4F37100EE4E65;
+					};
+				};
+			};
+			buildConfigurationList = 5E55A5AB19E4F37100EE4E65 /* Build configuration list for PBXProject "BTLEDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E55A5A719E4F37100EE4E65;
+			productRefGroup = 5E55A5B119E4F37100EE4E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E55A5AF19E4F37100EE4E65 /* BTLEDemo */,
+				5E55A5C219E4F37100EE4E65 /* BTLEDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E55A5AE19E4F37100EE4E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E55A5BB19E4F37100EE4E65 /* Images.xcassets in Resources */,
+				5E55A5BE19E4F37100EE4E65 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E55A5C119E4F37100EE4E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E55A5AC19E4F37100EE4E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E55A5B919E4F37100EE4E65 /* AppDelegate.m in Sources */,
+				5E55A5B619E4F37100EE4E65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E55A5BF19E4F37100EE4E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E55A5CA19E4F37100EE4E65 /* BTLEDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E55A5C519E4F37100EE4E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E55A5AF19E4F37100EE4E65 /* BTLEDemo */;
+			targetProxy = 5E55A5C419E4F37100EE4E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E55A5BC19E4F37100EE4E65 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E55A5BD19E4F37100EE4E65 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E55A5CB19E4F37100EE4E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5E55A5CC19E4F37100EE4E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E55A5CE19E4F37100EE4E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BTLEDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E55A5CF19E4F37100EE4E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BTLEDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E55A5D119E4F37100EE4E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BTLEDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTLEDemo.app/Contents/MacOS/BTLEDemo";
+			};
+			name = Debug;
+		};
+		5E55A5D219E4F37100EE4E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BTLEDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTLEDemo.app/Contents/MacOS/BTLEDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E55A5AB19E4F37100EE4E65 /* Build configuration list for PBXProject "BTLEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E55A5CB19E4F37100EE4E65 /* Debug */,
+				5E55A5CC19E4F37100EE4E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E55A5CD19E4F37100EE4E65 /* Build configuration list for PBXNativeTarget "BTLEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E55A5CE19E4F37100EE4E65 /* Debug */,
+				5E55A5CF19E4F37100EE4E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E55A5D019E4F37100EE4E65 /* Build configuration list for PBXNativeTarget "BTLEDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E55A5D119E4F37100EE4E65 /* Debug */,
+				5E55A5D219E4F37100EE4E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E55A5A819E4F37100EE4E65 /* Project object */;
+}
