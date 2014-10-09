@@ -1,14 +1,14 @@
-//
-//  AppDelegate.h
-//  BTLEDemo
-//
-//  Created by David Landwehr on 08/10/14.
-//  Copyright (c) 2014 David Landwehr. All rights reserved.
-//
-
 #import <Cocoa/Cocoa.h>
+#import <IOBluetooth/IOBluetooth.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, CBPeripheralManagerDelegate>
+
+
+-(IBAction)handleValueChanged: sender;
+
+-(IBAction)handleNameChanged: sender;
+
+-(IBAction)startAdvertising: sender;
 
 
 @end

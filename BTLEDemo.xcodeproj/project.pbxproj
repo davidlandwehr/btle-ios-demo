@@ -12,6 +12,7 @@
 		5E55A5BB19E4F37100EE4E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E55A5BA19E4F37100EE4E65 /* Images.xcassets */; };
 		5E55A5BE19E4F37100EE4E65 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E55A5BC19E4F37100EE4E65 /* MainMenu.xib */; };
 		5E55A5CA19E4F37100EE4E65 /* BTLEDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A5C919E4F37100EE4E65 /* BTLEDemoTests.m */; };
+		5E55A5D419E4F50300EE4E65 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E55A5D319E4F50300EE4E65 /* IOBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		5E55A5C319E4F37100EE4E65 /* BTLEDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLEDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E55A5C819E4F37100EE4E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E55A5C919E4F37100EE4E65 /* BTLEDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLEDemoTests.m; sourceTree = "<group>"; };
+		5E55A5D319E4F50300EE4E65 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E55A5D419E4F50300EE4E65 /* IOBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 		5E55A5A719E4F37100EE4E65 = {
 			isa = PBXGroup;
 			children = (
+				5E55A5D319E4F50300EE4E65 /* IOBluetooth.framework */,
 				5E55A5B219E4F37100EE4E65 /* BTLEDemo */,
 				5E55A5C619E4F37100EE4E65 /* BTLEDemoTests */,
 				5E55A5B119E4F37100EE4E65 /* Products */,
